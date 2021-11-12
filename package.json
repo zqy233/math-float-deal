@@ -1,0 +1,17 @@
+{
+  "name": "just-xlsx-export",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "xlsx": "^0.17.1",
+    "xlsx-style-d807": "^0.8.14"
+  },
+  "keywords": [],
+  "author": "zhuzhuxiaggboy",
+  "license": "ISC"
+}
