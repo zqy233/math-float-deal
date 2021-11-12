@@ -1,8 +1,18 @@
 {
-  "name": "just-xlsx-export",
+  "name": "math-float-deal",
+  "description": "A simple npm package for deal ja",
   "version": "1.0.8",
-  "description": "",
+  "author": "zhuzhuxiaggboy",
   "main": "index.js",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zqy233/math-float-deal"
+  },
+  "bugs": {
+    "url": "https://github.com/zqy233/math-float-deal/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +21,8 @@
     "xlsx": "^0.17.1",
     "xlsx-style-d807": "^0.8.14"
   },
-  "keywords": [],
-  "author": "zhuzhuxiaggboy",
-  "license": "ISC"
+  "keywords": [
+    "",
+    "xlsx"
+  ]
 }
