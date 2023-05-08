@@ -1,10 +1,27 @@
 {
   "name": "math-float-deal",
-  "description": "A simple npm package for deal ja",
-  "version": "1.0.8",
-  "author": "zhuzhuxiaggboy",
-  "main": "index.js",
-  "private": false,
+  "description": "Handling inaccuracies in JavaScript decimal calculations",
+  "version": "1.0.12",
+  "author": "zqy233",
+  "typings": "./dist/index.d.ts",
+  "main": "./dist/index.min.js",
+  "module": "./dist/index.esm.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.min.js",
+      "require": "./dist/index.esm.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "calculations",
+    "float",
+    "number"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,16 +30,12 @@
   "bugs": {
     "url": "https://github.com/zqy233/math-float-deal/issues"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "file-saver": "^2.0.5",
-    "xlsx": "^0.17.1",
-    "xlsx-style-d807": "^0.8.14"
-  },
-  "keywords": [
-    "",
-    "xlsx"
-  ]
+  "homepage": "https://github.com/zqy233/svg-zoom-drag-vue-directives",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.1",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "rollup": "^3.21.5",
+    "rollup-plugin-delete": "^2.0.0",
+    "tslib": "^2.5.0"
+  }
 }
